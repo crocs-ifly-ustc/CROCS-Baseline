@@ -3,7 +3,7 @@
 This is a simple Baseline using DenseWAP(DenseWAP：Watch, attend and parse) in EDU-CHEMC.
 
 ## preprocess
-using `data_CHEMC\gen_pkl.py` to generate test.pkl train.caption test.caption for testing and training.
+using `data_CHEMC\gen_pkl.py` to generate valid.pkl train.caption valid.caption for testing and training.
 
 ## Train
 run `train_CHEMC.sh`. You should modify the config info in train_CHEMC.py according to your own path. 
